@@ -1,4 +1,7 @@
 def prime?(num)
+  if(num < 1)
+    return false 
+  end
   answer = ""
   start = 2 
   range = (start...num)  
