@@ -2,7 +2,6 @@ def prime?(num)
   if(num < 2)
     return false 
   end
-  answer = ""
   start = 2 
   range = (start...num)  
   range.each do |n|
